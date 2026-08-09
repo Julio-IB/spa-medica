@@ -1,0 +1,30 @@
+<svg viewBox="0 0 360 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logo-mobile-title">
+  <title id="logo-mobile-title">SPA Medical</title>
+
+  <!-- Arco distintivo de SPA Medical -->
+  <path
+    d="M 42 105 Q 180 -8 318 105"
+    fill="none"
+    stroke="#1a2a5e"
+    stroke-width="3.5"
+    stroke-linecap="round"
+  />
+
+  <!-- Estrella distintiva -->
+  <polygon
+    points="180,18 186,36 205,36 190,47 196,65 180,54 164,65 170,47 155,36 174,36"
+    fill="#cc2233"
+  />
+
+  <!-- Versión compacta para dispositivos móviles -->
+  <text
+    x="180"
+    y="184"
+    text-anchor="middle"
+    font-family="'Cinzel', 'Times New Roman', serif"
+    font-weight="900"
+    font-size="112"
+    letter-spacing="8"
+    fill="#1a2a5e"
+  >SPA</text>
+</svg>

@@ -1,0 +1,124 @@
+/* HEADER COMPONENT ------------------------*/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.logoFull {
+  margin: 18px 0px 8px 0px;
+  max-width: 80%;
+  max-height: 120px;
+}
+
+.buttonContactWhatsapp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  min-height: 44px;
+  padding: 7px 18px;
+  border: 2px solid #25d366;
+  border-radius: 999px;
+  background-color: #25d366;
+  color: #073b2a;
+  box-shadow: 0 4px 10px rgb(7 94 84 / 22%);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    color 180ms ease,
+    transform 100ms ease;
+}
+
+.buttonContactWhatsapp::before {
+  content: "";
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: #ffffff url("./assets/whatsappLogo.svg") center / 19px 19px no-repeat;
+}
+
+.buttonContactWhatsapp:link,
+.buttonContactWhatsapp:visited {
+  color: #073b2a;
+}
+
+.buttonContactWhatsapp:hover {
+  border-color: #1ebe5d;
+  background-color: #1ebe5d;
+  box-shadow: 0 6px 16px rgb(7 94 84 / 30%);
+  transform: translateY(-2px);
+}
+
+.buttonContactWhatsapp:active {
+  border-color: #128c7e;
+  background-color: #128c7e;
+  color: #ffffff;
+  box-shadow: 0 2px 5px rgb(7 94 84 / 25%);
+  transform: translateY(1px) scale(0.98);
+}
+
+.buttonContactTel {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  min-height: 44px;
+  padding: 7px 18px;
+  border: 2px solid #3b82f6;
+  border-radius: 999px;
+  background-color: #4288f8;
+  color: #082f49;
+  box-shadow: 0 4px 10px rgb(30 64 175 / 22%);
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    color 180ms ease,
+    transform 100ms ease;
+}
+
+.buttonContactTel::before {
+  content: "";
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: #ffffff url("./assets/phoneLogo.svg") center / 19px 19px no-repeat;
+}
+
+.buttonContactTel:link,
+.buttonContactTel:visited {
+  color: #082f49;
+}
+
+.buttonContactTel:hover {
+  border-color: #2563eb;
+  background-color: #2563eb;
+  box-shadow: 0 6px 16px rgb(30 64 175 / 30%);
+  transform: translateY(-2px);
+}
+
+.buttonContactTel:active {
+  border-color: #1d4ed8;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  box-shadow: 0 2px 5px rgb(30 64 175 / 25%);
+  transform: translateY(1px) scale(0.98);
+}

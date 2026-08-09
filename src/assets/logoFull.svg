@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1000 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+  <mask id="imagine-text-gaps-i891ss" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="1000" height="280" fill="white"/><rect x="93.4656982421875" y="87.31868743896484" width="813.068603515625" height="122.83001708984375" fill="black" rx="2"/><rect x="37.82440948486328" y="214.85130310058594" width="924.3511962890625" height="33.32169532775879" fill="black" rx="2"/></mask></defs>
+  
+  <!-- Arc over text -->
+  <path d="M 180 120 Q 500 -10 820 120" fill="none" stroke="#1a2a5e" stroke-width="3.5" stroke-linecap="round" mask="url(#imagine-text-gaps-i891ss)" style="fill:none;stroke:rgb(26, 42, 94);color:rgb(0, 0, 0);stroke-width:3.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <!-- Red star -->
+  <polygon points="500,18 506,36 525,36 510,47 516,65 500,54 484,65 490,47 475,36 494,36" fill="#cc2233" style="fill:rgb(204, 34, 51);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  
+  <!-- SPA MEDICAL main text -->
+  <text x="500" y="185" text-anchor="middle" font-family="'Cinzel', 'Times New Roman', serif" font-weight="900" font-size="108" fill="#1a2a5e" letter-spacing="6" style="fill:rgb(26, 42, 94);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Cinzel, &quot;Times New Roman&quot;, serif;font-size:108px;font-weight:900;text-anchor:middle;dominant-baseline:auto">SPA MEDICAL</text>
+  
+  <!-- New tagline -->
+  <text x="500" y="240" text-anchor="middle" font-family="'Cinzel', 'Times New Roman', serif" font-weight="700" font-size="26" fill="#1a2a5e" letter-spacing="8" style="fill:rgb(26, 42, 94);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Cinzel, &quot;Times New Roman&quot;, serif;font-size:26px;font-weight:700;text-anchor:middle;dominant-baseline:auto">SERVICIO INTEGRAL EN TECNOLOGÍA MÉDICA</text>
+</svg>
