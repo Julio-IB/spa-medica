@@ -1,14 +1,29 @@
+/* MAIN COMPONENT ------------------------*/
+main {
+  width: 100%;
+  max-width: 1080px;
+  background-color: rgb(247, 244, 240);
+}
+
 /* HEADER COMPONENT ------------------------*/
 .header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
+
 .logoFull {
   margin: 18px 0px 8px 0px;
   max-width: 80%;
   max-height: 120px;
+}
+
+.buttonContactContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 12px 0px;
+  gap: 30px;
 }
 
 .buttonContactWhatsapp {
@@ -18,7 +33,7 @@
   gap: 10px;
   width: fit-content;
   min-height: 44px;
-  padding: 7px 18px;
+  padding: 6px 18px;
   border: 2px solid #25d366;
   border-radius: 999px;
   background-color: #25d366;
@@ -74,7 +89,7 @@
   gap: 10px;
   width: fit-content;
   min-height: 44px;
-  padding: 7px 18px;
+  padding: 6px 18px;
   border: 2px solid #3b82f6;
   border-radius: 999px;
   background-color: #4288f8;
@@ -121,4 +136,74 @@
   color: #ffffff;
   box-shadow: 0 2px 5px rgb(30 64 175 / 25%);
   transform: translateY(1px) scale(0.98);
+}
+
+/* NAV component -------------------------------*/
+.navBar {
+  display: flex;
+  height: 2.4rem;
+  justify-content: end;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.navLink {
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding: 0px 14px;
+  margin: 0px 4px;
+}
+
+@media (min-width: 620px) {
+  main {
+    padding: 0px 20px;
+  }
+
+  .header {
+    flex-direction: row;
+    margin-top: 12px;
+    justify-content: space-between;
+  }
+
+  .logoFull {
+    margin: 0px;
+    max-width: 40%;
+    max-height: 100px;
+  }
+}
+
+/* PROMOTION SECTION component ----------------------------*/
+.promotionSection {
+  height: 280px;
+  margin: 16px 0px;
+  padding: 12px;
+}
+
+/* PROMOTION component ----------------------------*/
+.promotion {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  border-radius: 14px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/promotion1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.promotionTitle {
+  margin: 28px 0px 10px 32px;
+  font-size: 1.9rem;
+  color: white;
+  -webkit-text-stroke: 0.3px black;
+}
+
+.promotion li {
+  font-size: 1.3rem;
+  margin: 4px 0px 12px 0px;
+  font-weight: 600;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
 }

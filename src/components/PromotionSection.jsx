@@ -1,6 +1,8 @@
-function PromotionSection() {
+function PromotionSection({children}) {
     return (
-        <></>
+        <section className="promotionSection">
+            {children}
+        </section>
     )
 }
 
