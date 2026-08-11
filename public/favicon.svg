@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#f7f9fc"/>
+  <path d="M9 32Q32 8 55 32" fill="none" stroke="#1a2a5e" stroke-width="3" stroke-linecap="round"/>
+  <path d="m32 12 2.5 7.4h7.8l-6.3 4.7 2.4 7.5-6.4-4.7-6.4 4.7 2.4-7.5-6.3-4.7h7.8z" fill="#cc2233"/>
+  <text x="32" y="52" fill="#1a2a5e" font-family="Georgia,serif" font-size="20" font-weight="700" text-anchor="middle">SPA</text>
+</svg>
