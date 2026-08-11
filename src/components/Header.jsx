@@ -8,7 +8,7 @@ function Header({ headerRef }) {
             <div className='logoContainer'>
                 <img src={logo} className='logo' alt='SPA MEDICAL LOGO' />
                 <div className='buttonContactContainer'>
-                    {<ButtonContact mediaOutlet="whatsapp" phoneNumber="4794300244" buttonText="479 430 0244" message="Hola sigue disponible" />}
+                    {<ButtonContact mediaOutlet="whatsapp" phoneNumber="4794300244" buttonText="479 430 0244" message="" />}
                     {<ButtonContact mediaOutlet="tel" phoneNumber="4794300244" buttonText="479 430 0244" />}
                 </div>
             </div>
