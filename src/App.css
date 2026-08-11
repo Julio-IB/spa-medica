@@ -47,10 +47,9 @@ main {
 .buttonContactWhatsapp {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 4px 10px 4px 6px;
   width: 208px;
-  gap: 7px;
   border: 2px solid #25d366;
   border-radius: 999px;
   background-color: #25d366;
@@ -102,10 +101,9 @@ main {
 .buttonContactTel {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 4px 10px 4px 6px;
   width: 208px;
-  gap: 7px;
   border: 2px solid #3b82f6;
   border-radius: 999px;
   background-color: #4288f8;
@@ -314,7 +312,45 @@ main {
 .azul {
   color: #1A2A5E;
 }
+/* EQUIPMENT SECTION component ---------------- */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 26px;
+  background-color: rgb(51, 71, 117);
+  border-top: 2px solid rgb(6, 11, 52);
+  color: whitesmoke;
+}
+.footerTextContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerTitle {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: left;
+  align-self: flex-start;
+}
+.location {
+  font-size: 2rem;
+  margin: 26px 0px;
+}
+.address {
+  font-size: 0.9rem;
+  margin-bottom: 26px;
+}
+.maps {
+  width: 100%;
+  height: 360px;
+  border-radius: 18px;
+  margin-bottom: 4px;
+}
 
+/* MEDIA ---------------- */
 @media (min-width: 620px) {
   main {
     padding: 0px 20px;
@@ -340,5 +376,26 @@ main {
   }
   .buttonContactContainer {
     margin-top: 50px;
+  }
+  footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 18px;
+    max-height: clamp(360px, 48vw, 420px);
+  }
+  .footerTitle {
+    margin-left: 10%;
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+  .footerTextContainer {
+    width: 45%;
+    border: 3px solid rgb(5, 5, 56);
+    border-radius: 18px;
+  }
+  .maps {
+    width: 45%;
+    height: 420;
   }
 }
