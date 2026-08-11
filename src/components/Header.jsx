@@ -2,9 +2,9 @@ import logo from '../assets/logo.svg'
 import ButtonContact from './ButtonContact';
 import Border from './Border';
 
-function Header() {
+function Header({ headerRef }) {
     return (
-        <header className='header'>
+        <header ref={headerRef} className='header'>
             <div className='logoContainer'>
                 <img src={logo} className='logo' alt='SPA MEDICAL LOGO' />
                 <div className='buttonContactContainer'>
