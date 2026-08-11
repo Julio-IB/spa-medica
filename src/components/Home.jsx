@@ -6,6 +6,9 @@ import Footer from './Footer'
 import Equipment from './Equipment'
 
 function Home() {
+    const infoConcentrador = [
+        "¿Te sentías mejor cuando tu equipo era nuevo, ahora necesitas más flujo para sentirte igual de bien? ¿Tu equipo se escucha forzado y se calienta?"
+    ]
     return (
         <main>
             <Header />
@@ -13,11 +16,6 @@ function Home() {
                 <Promotion title="Beneficios pensados para ti" />
             </PromotionSection>
             <EquipmentSection>
-                <Equipment
-                    title="Concentradores de oxígeno"
-                    info=""
-                />
-                <Equipment />
                 <Equipment />
             </EquipmentSection>
             <Footer />
