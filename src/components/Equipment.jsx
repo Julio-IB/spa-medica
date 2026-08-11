@@ -20,6 +20,7 @@ function Equipment() {
                     </ul>
                 </div>
             </div>
+            <h3 className='specialMessage'>Respira bien</h3>
         </div>
     )
 }
