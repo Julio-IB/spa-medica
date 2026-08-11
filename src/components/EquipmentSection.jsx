@@ -1,6 +1,8 @@
-function EquipmentSection() {
+function EquipmentSection({children}) {
     return (
-        <></>
+        <section className="equipmentSection">
+            {children}
+        </section>
     )
 }
 

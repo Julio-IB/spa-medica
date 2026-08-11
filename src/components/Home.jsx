@@ -1,20 +1,25 @@
 import Header from './Header'
-import Nav from './Nav'
 import PromotionSection from './PromotionSection'
 import Promotion from './Promotion'
 import EquipmentSection from './EquipmentSection'
 import Footer from './Footer'
+import Equipment from './Equipment'
 
 function Home() {
     return (
         <main>
             <Header />
             <PromotionSection>
-                <Promotion title="Beneficios">
-                    <li>Hola</li>
-                </Promotion>
+                <Promotion title="Beneficios pensados para ti" />
             </PromotionSection>
-            <EquipmentSection />
+            <EquipmentSection>
+                <Equipment
+                    title="Concentradores de oxígeno"
+                    info=""
+                />
+                <Equipment />
+                <Equipment />
+            </EquipmentSection>
             <Footer />
         </main>
     )

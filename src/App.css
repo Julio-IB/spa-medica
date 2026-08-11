@@ -2,7 +2,6 @@
 main {
   width: 100%;
   max-width: 1080px;
-  background-color: rgb(247, 244, 240);
 }
 
 /* HEADER COMPONENT ------------------------*/
@@ -15,8 +14,8 @@ main {
 
 .logoFull {
   margin: 18px 0px 8px 0px;
-  max-width: 80%;
-  max-height: 120px;
+  max-width: 88%;
+  max-height: 140px;
 }
 
 .buttonContactContainer {
@@ -155,6 +154,128 @@ main {
   margin: 0px 4px;
 }
 
+/* PROMOTION SECTION component ----------------------------*/
+.promotionSection {
+  width: 100%;
+  margin: 20px 0 28px;
+}
+
+/* PROMOTION component ----------------------------*/
+.promotion {
+  min-height: clamp(360px, 48vw, 420px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: clamp(30px, 6vw, 54px);
+  background-image:
+    linear-gradient(90deg,
+      rgb(9 22 52 / 80%) 0%,
+      rgb(18 42 82 / 64%) 32%,
+      rgb(18 42 82 / 30%) 70%,
+      rgb(18 42 82 / 8%) 100%),
+    url("./assets/promotion1.webp");
+  background-size: cover;
+  background-position: center, 56% center;
+  background-repeat: no-repeat;
+  box-shadow:
+    0 22px 48px rgb(26 42 94 / 16%),
+    0 4px 12px rgb(0 0 0 / 10%);
+}
+
+.promotionContent {
+  width: min(100%, 550px);
+  text-align: left;
+}
+
+.promotionEyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 14px;
+  color: rgb(226 238 255 / 92%);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.promotionTitle {
+  max-width: 12ch;
+  margin: 0 0 24px;
+  color: white;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+  line-height: 1.02;
+  text-align: left;
+  text-wrap: balance;
+  text-shadow: 0 3px 18px rgb(0 0 0 / 22%);
+}
+
+.promotionBenefits {
+  display: grid;
+  gap: 13px;
+}
+
+.promotionBenefits li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: rgb(247 250 255 / 94%);
+  font-size: clamp(0.98rem, 2vw, 1.1rem);
+  font-weight: 500;
+  line-height: 1.35;
+  text-align: left;
+}
+
+.promotionBenefits li::before {
+  content: "✓";
+  flex: 0 0 25px;
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(163 216 255 / 60%);
+  border-radius: 50%;
+  background-color: rgb(117 200 255 / 16%);
+  color: #b9e4ff;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+/* EQUIPMENT SECTION component ---------------- */
+.equipmentSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* EQUIPMENT SECTION component ---------------- */
+.equipment {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex: 1 1 360px;
+  height: 500px;
+  margin: 0px 16px 20px 16px;
+  border: 1px solid gray;
+  border-radius: 18px;
+}
+.equipmentTitle {
+  font-size: 1.6rem;
+  text-align: left;
+  margin: 4px 0px 10px 5px;
+}
+.equipmentInfo {
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
 @media (min-width: 620px) {
   main {
     padding: 0px 20px;
@@ -171,39 +292,11 @@ main {
     max-width: 40%;
     max-height: 100px;
   }
-}
 
-/* PROMOTION SECTION component ----------------------------*/
-.promotionSection {
-  height: 280px;
-  margin: 16px 0px;
-  padding: 12px;
-}
-
-/* PROMOTION component ----------------------------*/
-.promotion {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  border-radius: 14px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/promotion1.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.promotionTitle {
-  margin: 28px 0px 10px 32px;
-  font-size: 1.9rem;
-  color: white;
-  -webkit-text-stroke: 0.3px black;
-}
-
-.promotion li {
-  font-size: 1.3rem;
-  margin: 4px 0px 12px 0px;
-  font-weight: 600;
-  color: white;
-  -webkit-text-stroke: 0.2px black;
+  .promotion {
+    min-height: 330px;
+    background-position: center;
+    margin: 0px 16px;
+    border-radius: 16px;
+  }
 }
